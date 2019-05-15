@@ -22,7 +22,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   return array.find(cheese_types)
   # if array.include?(cheese_types)
-  #   
+  #
   # else
   #   return nil
   # end
