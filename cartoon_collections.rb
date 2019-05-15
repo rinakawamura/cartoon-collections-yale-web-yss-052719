@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(array)
   array.collect do |arg|
-    arg.capitalize
+    arg[0].upcase
     arg << "!"
     puts arg
   end
