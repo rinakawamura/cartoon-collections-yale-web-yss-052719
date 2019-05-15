@@ -23,9 +23,4 @@ def find_the_cheese(array)
   array.find do |arg|
     cheese_types.include?(arg)
   end
-  # if array.include?(cheese_types)
-  #
-  # else
-  #   return nil
-  # end
 end
