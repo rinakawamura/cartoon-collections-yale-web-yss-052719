@@ -3,7 +3,6 @@ def roll_call_dwarves(array)
   array.each do |dwarf|
     puts "#{count}. #{dwarf}"
     count++
-  end
 end
 
 def summon_captain_planet# code an argument here
